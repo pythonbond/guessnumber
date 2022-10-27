@@ -8,10 +8,10 @@ while chances <=5:
     if guess == n:
         print("You Win")
         break
-    elif guess > n:
+    elif guess < n:
         print("go lower than ", guess)
     else:
         print("go higher than ", guess)
     chances=chances-1
-    if chances==0:
+    if chances==1:
         print("you are a loser. how can you not figure it out. The number is ", n," Have basic logic you little idiot")
